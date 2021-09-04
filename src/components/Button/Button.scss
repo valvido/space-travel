@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  background-color: rgb(231, 44, 200);
+  padding: 12px;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &.circle {
+    border-radius: 50px;
+  }
+
+  &.rectangle {
+    border-radius: 4px;
+  }
+}
